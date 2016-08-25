@@ -4,7 +4,7 @@ var port = process.env.PORT || 8080;
 
 http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello from OpenShift mais ou est le webhook\n");
+  response.end("Hello from OpenShift mais ou est le webhook hein ?\n");
 }).listen(port);
 
 console.log("Server running on port " + port);
