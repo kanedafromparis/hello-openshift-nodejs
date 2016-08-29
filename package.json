@@ -1,9 +1,15 @@
 {
-  "name": "hello-openshift",
+  "name": "upload-file-openshift",
   "version": "1.0.0",
-  "description": "Hello World in NodeJS for OpenShift",
+  "description": "Upload File in NodeJS for OpenShift",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
